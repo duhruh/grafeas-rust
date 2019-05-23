@@ -1,6 +1,5 @@
 extern crate protobuf;
 extern crate grpc;
-extern crate grpc_protobuf;
 extern crate tls_api;
 extern crate futures;
 extern crate futures_cpupool;
@@ -10,8 +9,8 @@ pub mod build;
 pub mod common;
 pub mod cvss;
 pub mod deployment;
-pub mod discorvery;
-pub mod grafes;
+pub mod discovery;
+pub mod grafeas;
 pub mod image;
 pub mod package;
 pub mod project;
