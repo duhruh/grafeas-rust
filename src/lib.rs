@@ -1,5 +1,7 @@
 extern crate protobuf;
 extern crate grpc;
+extern crate grpc_protobuf;
+extern crate tls_api;
 extern crate futures;
 extern crate futures_cpupool;
 
